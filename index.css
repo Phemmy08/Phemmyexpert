@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #c7cfd3;
+    background-image: linear-gradient( #c7cfd3, #df7896);
+    color: #07165c;
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+    background-color: #07165c;
+    color: #eee;
+    text-decoration: none;
+    text-align: right;
+
+    
+
+}
+
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+
+
+ a {
+    text-decoration: none;
+    color: #eee;
+    margin-inline: 0.5rem;
+    font-size: 1.5rem;
+        position: sticky;
+}
+
+a:hover, a:focus {
+    cursor: cell;
+    color: gold;
+}
+
+a:active {
+    color: burlywood;
+}
+
+h1 {
+    padding: 20px;
+    color: #07165c;
+    font-size: 10em;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+}
+
+a {
+   /*  font-size: 3rem;
+    color: #07165c;
+    cursor:cell;
+    text-decoration: none;
+    text-align: center; */
+}
+
+nav {
+    /* box-sizing: border-box;
+    border-right: 0;
+    border: 2px  solid #333;
+    max-width: 100%;
+    border-width: 100%;
+    column-width: 100%;
+    border-radius: 2rem;
+    margin:  0 auto 0;
+    max-width: 500px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 7rem; */
+    
+}
+
+#head {
+   /*  background-color: gold;
+    display: block;
+    margin: auto;
+    padding:0px; */
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+/* li {
+    border-top: 1px solid #333;
+    border-left: 0;
+}
+li:first-child {
+    border-top: none;
+    margin-top: auto;
+    padding: 0;
+}
+
+li a {
+    display: block;
+} */
+
+
+
+#size {
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    padding: 20px;
+}
+
+#info {
+    padding: 20px;
+    font-size: 7em;
+    text-align: center;
+    color:#07165c;
+    font-family: "Nerko One", cursive;;
+}
+
+#about-LTS {
+    padding: 20px;
+    font-size: 20px;
+    color: #07165c;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+
+#ok {
+    padding: 20px;
+    font-size: 7em;
+    color: #07165c;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+}
+
+table, tr, th, td, caption {
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #eee;
+    font-family:  'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    /* border-color: black; */
+    font-size: 25px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
